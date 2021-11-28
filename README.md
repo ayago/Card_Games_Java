@@ -1,2 +1,4 @@
-# Pusoy_Dos_Java
-Java based service to process Pusoy Dos Gameplay
+# Card Games Java
+Java based modules for the following Card Games
+
+* Pusoy Dos
