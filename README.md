@@ -7,5 +7,5 @@ Mono repository is used to facilitate modularity without the need to use an arti
 
 ## Modules
 
-* [Pusoy Dos Domain](pusoydos/) - Pusoy Dos rules implementation that is driven by DDD. Application development 
+* [Pusoy Dos Domain (`pusoydos`)](pusoydos/) - Pusoy Dos rules implementation that is driven by DDD. Application development 
   framework and Infrastructure agnostic.
