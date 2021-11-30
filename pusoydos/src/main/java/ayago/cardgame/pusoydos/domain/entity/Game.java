@@ -11,12 +11,11 @@ import ayago.cardgame.pusoydos.domain.event.GameEvent;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
-import java.util.Optional;
 
 public class Game{
 
-    public final GameId gameId;
-    public final Player[] players;
+    private final GameId gameId;
+    private final Player[] players;
     private final PlayedCards recentlyPlayedCards;
     private final PlayerId recentPlayerPlayed;
     private final PlayerId nextPlayer;
@@ -59,18 +58,6 @@ public class Game{
 
     Game passTurn(PassCommand command){
         return this;
-    }
-
-    public Optional<PlayerId> getRecentPlayerPlayed(){
-        return Optional.ofNullable(recentPlayerPlayed);
-    }
-
-    public Optional<PlayerId> getNextPlayer(){
-        return Optional.ofNullable(nextPlayer);
-    }
-
-    public Optional<PlayedCards> getRecentlyPlayedCards(){
-        return Optional.ofNullable(recentlyPlayedCards);
     }
 
     public GameState generateState(){
