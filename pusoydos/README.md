@@ -35,8 +35,9 @@ If a command violates validation required by the handler, the service wraps the 
 ### `GameState`
 
 The `GameState` encapsulates the current state of `Game`. It acts as the application visible equivalent of `Game`. 
-By using this concept, the module effectively hides the entity package from requiring application level modules. The 
-`Game` constructor 
+By using this concept, the module effectively hides the entity package from application level modules. The 
+`Game` entity has a constructor that accepts a `GameState` instance. Before property assignment, this constructor 
+executes validation logic to ensure that the `Game` instance is always valid during the execution of a command.
 
 ### `GameRepository`
 
