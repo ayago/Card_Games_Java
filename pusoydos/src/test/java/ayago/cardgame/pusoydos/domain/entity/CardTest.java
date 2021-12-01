@@ -23,7 +23,7 @@ public class CardTest{
         assertNotNull(resolvedCard);
         assertAll(
             () -> assertEquals(expectedSuit, resolvedCard.suit),
-            () -> assertEquals(expectedValue, resolvedCard.suit)
+            () -> assertEquals(expectedValue, resolvedCard.value)
         );
     }
 
