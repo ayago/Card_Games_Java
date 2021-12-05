@@ -1,11 +1,12 @@
 # Card Games Java
 
-Java based Mono repository where I implement different modules relating to Card Game APIs to demonstrate and discuss my 
-knowledge on DDD, Microservices, and Software Patterns in general.
+Java based Mono repository where I showcase usage of different topics related to backend software engineering. 
+Check Topics list below for more details.
 
 Mono repository is used to facilitate modularity without the need to use an artifact repository (e.g., Nexus).
 
-## Modules
+## Showcased topic usage
 
-* [Pusoy Dos Domain (`pusoydos`)](pusoydos/) - Pusoy Dos rules implementation that is driven by DDD. Application development 
-  framework and Infrastructure agnostic.
+Topic                 | Sample usage                               | Prerequisite |
+--------------------- | ------------------------------------------ | ------------ |
+Domain Driven Design  | [Pusoy Dos Domain (`pusoydos`)](pusoydos/) |None          |
