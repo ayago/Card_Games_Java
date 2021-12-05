@@ -1,5 +1,7 @@
 # Pusoy Dos Domain
 
+![Coverage below required](../.github/badges/pusoydos/jacoco/coverage.svg)
+
 This module contains the implementation of the Pusoy Dos Game. This module is lightweight and is not tied up
 to any application development framework or infrastructure technology. This module exposes `GameRepository` and 
 `GameEventPublisher` interfaces for the application layer to decide the appropriate persistence and publisher 
@@ -11,7 +13,7 @@ Design follows the Domain Driven Design concept. Using Java 9 modules, we tightl
 the enforcement of business logic by restricting access to the entity package (see `domain.entity` below) which houses
 the domain aggregate and entities.
 
-![](Pusoy_Dos_Domain.png)
+![Class Diagram](Pusoy_Dos_Domain.png)
 
 ## Notable domain concepts
 
